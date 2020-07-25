@@ -1,0 +1,75 @@
+{
+
+    "mqtt": {
+
+        "username": "mbello76",
+
+        "password": "M123456789",
+
+        "host": "mqtt.eclipse.org",
+
+        "port": 1883,
+
+        "topic": "sensors"
+
+    },
+
+    "misc": {
+
+        "interval_ms": 1000,
+
+        "verbose": true
+
+    },
+
+    "sensors": {
+
+        "Sensor 1": {
+
+            "lat": 10,
+
+            "lng": 10,
+
+            "unit": "Pascals",
+
+            "type": "Pressure",
+
+            "range": [0, 45],
+
+            "description": "Pressure"
+
+        },
+
+        "Sensor 2": {
+
+            "lat": 90,
+
+            "lng": 90,
+
+            "unit": "C",
+
+            "type": "temperature",
+
+            "range": [0, 45],
+
+            "description": "Temperature"
+
+        },
+
+        "Sensor 3": {
+
+            "lat": 90,
+
+            "lng": 10,
+
+            "unit": "grams per cubic meter of moisture",
+
+            "type": "Humidity",
+
+            "range": [0, 45],
+
+            "description": "Humidity"
+
+        }
+    }
+}
